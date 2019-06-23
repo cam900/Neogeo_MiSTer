@@ -28,7 +28,7 @@ module linebuffer(
 	input [7:0] ADDR_LOAD,
 	output [11:0] DATA_OUT
 );
-	// 192 pixels * 12 bits
+	// 256 pixels * 12 bits
 	//reg [11:0] LB_RAM[0:255];	// TODO: Add a check, should never go over 191
 	reg [7:0] PAL_REG;
 	reg [7:0] ADDR_COUNTER;
